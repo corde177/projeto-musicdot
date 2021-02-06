@@ -6,11 +6,11 @@ body {
     margin-right: auto;
 }
 
-h1 {
+.titulo {
     background-color: #E1EDF2;
     padding: 10px;
 }
-h2 {
+.subtitulo {
     border-bottom: 2px solid Black;
 }
 
@@ -25,6 +25,38 @@ figcaption {
     margin-top: 10px;
 }
 
-p {
-    text-align: justify;
+.matriz-musicdot {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.familia-tupfeln {
+   width: 275px;
+   float: right;
+}
+
+figure img {
+    width: 100%;
+}
+.contato_subtitulo {
+    display: inline;
+}
+.contato_secao {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+}
+.contato_secao--telefone {
+    margin-left: 32px;
+}
+.contato_info {
+   content: 16px 0 24px;
+   padding-left: 32px;
+}
+.contato_info-titulo, 
+.contato_info-descricao {
+   display: inline;
+}
+.contato_info-descricao {
+    margin-right: 10px;
 }
