@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/matricula.css">
+    <link rel="icon" href="/img/favicon.ico">
+    <title>Matriculas</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <a href="navbar-brand" href="index.html"> <img class="header-navbar-logo" src="/img/musicdot-logo-light.svg" alt="logo da musicdot"></a>
+            <button class="navbar-togle" type="button" data-togle="colapse" data-target="#navbarsupportedContent" aria-controls="navbarsupportedContent" aria-expanded="false" aria-label="Togle navigatio">
+                <span class="navbar-togler-icon"></span>
+            </button>
+
+            <div class="colapse navbar-colapse" id="navbarsupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Matriculas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Email</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container mb-4">
+       <div class="jumbortron bg-dark header-matricula text-light mt-3">
+              <div class="container">
+                   <h1>Escolher Cursos</h1>
+                   <p class="lead">Escolha os cursos que gostarias de se matricular</p>
+              </div>
+       </div>
+       <table class="table table-hover rounded-top">
+           <thead class="theade-dark">
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Curso</th>
+                    <th scope="col">Tempo</th>
+                </tr>
+           </thead>
+           <tbody>
+             <tr>
+                <td><input type="checbox" name="curso" value="12" onclick="adicionarCurso(this)"></td>
+                <td>Curso de violão</td>
+                <td>20h</td>
+             </tr>
+             <tr>
+                <td><input onclick="adicionarCurso(this)" type="checbox" name="curso" value="30"></td>
+                <td>Curso de Bambolé</td>
+                <td>30h</td>
+             </tr>
+               <tr>
+                   <td><input onclick="adicionarCurso(this)" type="checbox" name="curso" value="12"></td>
+                   <td>Curso de Java</td>
+                   <td>12h</td>
+               </tr>
+               <tr>
+                  <td><input onclick="adicionarCurso(this)" type="checbox" name="curso" value="12"></td>
+                  <td>Curso de violão</td>
+                  <td>20h</td>
+               </tr>
+              <tr>
+                <td><input onclick="adicionarCurso(this)" type="checbox" name="curso" value="30"></td>
+                <td>Curso de Bambolé</td>
+                <td>30h</td>
+             </tr>
+             <tr>
+                <td><input onclick="adicionarCurso(this)" type="checbox" name="curso" value="12"></td>
+                <td>Curso de Java</td>
+                <td>12h</td>
+            </tr>
+            <tr>
+                <td><input onclick="adicionarCurso(this)" type="checbox" name="curso" value="12"></td>
+                <td>Curso de violão</td>
+                <td>20h</td>
+             </tr>
+             <tr>
+                <td><input onclick="adicionarCurso(this)" type="checbox" name="curso" value="30"></td>
+                <td>Curso de Bambolé</td>
+                <td>30h</td>
+             </tr>
+             <tr>
+                <td><input onclick="adicionarCurso(this)" type="checbox" name="curso" value="12"></td>
+                <td>Curso de Java</td>
+                <td>12h</td>
+            </tr>
+            <tr class="bg-dark text-light">
+                <td>Total</td>
+                <td class="js-total-de-cursos">0 curso(s)</td>
+                <td class="js-total-de-horas">0h</td>
+            </tr>
+           </tbody>
+           <button type="button" class="js-botao-matricula btn	btn-outline-dark btn-lg	mb-4">Confirmar Matricula</button>
+       </table>
+    </main>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
