@@ -9,8 +9,6 @@
 * CSS3;
 * JAVASCRIPT;
 * BOOTSTRAP.
- #### IDE
- * VISUAL STUDIO CODE.
 
  #### layout
 ![musicdot png](https://user-images.githubusercontent.com/56198906/108780035-20aa1c80-7568-11eb-8a32-dad89fced7b6.png)
